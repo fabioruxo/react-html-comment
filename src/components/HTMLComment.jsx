@@ -34,7 +34,7 @@ const HTMLComment = (props) => {
     }
   }, []);
 
-  return <span ref={ref} style={{ display: 'none' }} />;
+  return <div ref={ref} style={{ display: 'none' }} />;
 };
 
 HTMLComment.propTypes = {
